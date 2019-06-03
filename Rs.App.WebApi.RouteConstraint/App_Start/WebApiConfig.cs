@@ -1,4 +1,6 @@
 ﻿using System.Web.Http;
+using System.Web.Http.Routing;
+using Rs.App.WebApi.RouteConstraint.Constraints;
 
 namespace Rs.App.WebApi.RouteConstraint
 {
@@ -9,8 +11,11 @@ namespace Rs.App.WebApi.RouteConstraint
             // Web API configuration and services
 
             // Web API routes
-            config.MapHttpAttributeRoutes();
+            //config.MapHttpAttributeRoutes();
 
+            var constraintResolver = new DefaultInlineConstraintResolver();
+            constraintResolver.ConstraintMap.Add("validAccount", typeof(AccountConstraint));
+            config.MapHttpAttributeRoutes(constraintResolver);
 
 
             config.Routes.MapHttpRoute(
