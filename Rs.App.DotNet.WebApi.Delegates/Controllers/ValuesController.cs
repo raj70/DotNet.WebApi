@@ -1,10 +1,6 @@
 ﻿
 using Rs.App.DotNet.WebApi.Delegates.Handlers;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace Rs.App.DotNet.WebApi.Delegates.Controllers
