@@ -101,6 +101,7 @@
     </Compile>
     <Compile Include="Handlers\ApiKeyHandler.cs" />
     <Compile Include="Handlers\FullTimeHandler.cs" />
+    <Compile Include="Handlers\HttpMethodOverrideHandler.cs" />
     <Compile Include="Handlers\RemoveBadHeaderHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -132,7 +133,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60489</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44314/</IISUrl>
+          <IISUrl>http://localhost:44314/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
