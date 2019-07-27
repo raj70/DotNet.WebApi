@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler
+namespace Rs.App.DotNet.WebApi.Delegates
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

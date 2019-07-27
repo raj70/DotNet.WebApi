@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Net.Http.Headers;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     /// <summary>
     /// This is used to identify the place where the sample should be applied.

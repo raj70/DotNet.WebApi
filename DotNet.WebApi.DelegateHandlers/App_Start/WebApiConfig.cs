@@ -1,10 +1,10 @@
-﻿using Rs.App.DotNet.WebApi.DelegateHandler.Handlers;
+﻿using Rs.App.DotNet.WebApi.Delegates.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler
+namespace Rs.App.DotNet.WebApi.Delegates
 {
     public static class WebApiConfig
     {

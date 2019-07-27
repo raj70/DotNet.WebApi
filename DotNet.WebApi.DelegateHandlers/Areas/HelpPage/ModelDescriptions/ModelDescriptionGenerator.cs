@@ -11,7 +11,7 @@ using System.Web.Http.Description;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage.ModelDescriptions
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Generates model descriptions for given types.

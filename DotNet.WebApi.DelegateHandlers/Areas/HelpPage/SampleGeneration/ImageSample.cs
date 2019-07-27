@@ -1,6 +1,6 @@
 using System;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     /// <summary>
     /// This represents an image sample on the help page. There's a display template named ImageSample associated with this class.

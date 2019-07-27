@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Controllers
+namespace Rs.App.DotNet.WebApi.Delegates.Controllers
 {
     public class HomeController : Controller
     {

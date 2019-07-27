@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using Rs.App.DotNet.WebApi.DelegateHandler;
+using Rs.App.DotNet.WebApi.Delegates;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler
+namespace Rs.App.DotNet.WebApi.Delegates
 {
     public class SwaggerConfig
     {

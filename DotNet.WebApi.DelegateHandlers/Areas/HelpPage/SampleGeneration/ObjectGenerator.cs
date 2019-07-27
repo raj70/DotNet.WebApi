@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     /// <summary>
     /// This class will create an object of a given type and populate it with sample data.

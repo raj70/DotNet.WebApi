@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler
+namespace Rs.App.DotNet.WebApi.Delegates
 {
     public class FilterConfig
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage.ModelDescriptions;
-using Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage.Models;
+using Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage.ModelDescriptions;
+using Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage.Models;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage.Controllers
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

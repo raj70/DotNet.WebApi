@@ -16,7 +16,7 @@ using System.Web.Http;
 using System.Web.Http.OData;
 #endif
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     /// <summary>
     /// Use this class to customize the Help Page.

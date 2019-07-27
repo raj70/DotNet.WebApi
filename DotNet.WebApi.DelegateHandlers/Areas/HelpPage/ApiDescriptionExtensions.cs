@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

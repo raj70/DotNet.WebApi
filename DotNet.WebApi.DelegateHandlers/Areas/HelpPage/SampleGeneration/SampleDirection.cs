@@ -1,4 +1,4 @@
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Areas.HelpPage
+namespace Rs.App.DotNet.WebApi.Delegates.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

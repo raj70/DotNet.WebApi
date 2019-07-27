@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Rs.App.DotNet.WebApi.DelegateHandler.Handlers
+namespace Rs.App.DotNet.WebApi.Delegates.Handlers
 {
     public class ApiKeyHandler : DelegatingHandler
     {
