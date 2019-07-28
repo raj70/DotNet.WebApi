@@ -16,6 +16,12 @@ namespace Rs.App.WebApi.RouteConstraint.Controllers
             return "Hi " + accountId;
         }
 
-
+        [HttpGet, Route("{accountId:validAccount}/country/{country:enum(Rs.App.WebApi.RouteConstraint.Controllers.EnumValidCountry)}")]
+        public string Get(string accountId, string country)
+        {
+            return $@"{accountId} from {country}";
+        }
     }
+
+    public enum EnumValidCountry { Nepal, Australia, Singapore }
 }

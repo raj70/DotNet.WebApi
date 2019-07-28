@@ -1,6 +1,7 @@
 ﻿using System.Web.Http;
 using System.Web.Http.Routing;
 using Rs.App.WebApi.RouteConstraint.Constraints;
+using Rs.App.WebApi.RouteConstraint.Controllers;
 
 namespace Rs.App.WebApi.RouteConstraint
 {
@@ -14,7 +15,11 @@ namespace Rs.App.WebApi.RouteConstraint
             //config.MapHttpAttributeRoutes();
 
             var constraintResolver = new DefaultInlineConstraintResolver();
+
             constraintResolver.ConstraintMap.Add("validAccount", typeof(AccountConstraint));
+            constraintResolver.ConstraintMap.Add("enum", typeof(EnumerationConstraint));
+
+
             config.MapHttpAttributeRoutes(constraintResolver);
 
 
