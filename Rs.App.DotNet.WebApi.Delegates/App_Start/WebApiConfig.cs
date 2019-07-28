@@ -15,6 +15,7 @@ namespace Rs.App.DotNet.WebApi.Delegates
             config.MessageHandlers.Add(new ApiKeyHandler());
             config.MessageHandlers.Add(new RemoveBadHeaderHandler());
             config.MessageHandlers.Add(new HttpMethodOverrideHandler());
+            config.MessageHandlers.Add(new ClientIPAddressHandler());
 
             // Web API routes
             config.MapHttpAttributeRoutes();

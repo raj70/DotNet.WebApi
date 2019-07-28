@@ -100,6 +100,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Handlers\ApiKeyHandler.cs" />
+    <Compile Include="Handlers\ClientIPAddressHandler.cs" />
     <Compile Include="Handlers\FullTimeHandler.cs" />
     <Compile Include="Handlers\HttpMethodOverrideHandler.cs" />
     <Compile Include="Handlers\RemoveBadHeaderHandler.cs" />
