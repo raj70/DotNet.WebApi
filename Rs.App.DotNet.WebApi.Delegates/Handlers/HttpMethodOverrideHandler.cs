@@ -24,7 +24,7 @@ namespace Rs.App.DotNet.WebApi.Delegates.Handlers
                 Trace.WriteLine(xheaderMethod);
                 if (xheaderMethod != null)
                 {
-                    if(httpMethods.Contains(xheaderMethod, StringComparer.InvariantCultureIgnoreCase))
+                    if(httpMethods.Contains(xheaderMethod.ToUpperInvariant(), StringComparer.InvariantCultureIgnoreCase))
                     {
                         request.Method = new HttpMethod(xheaderMethod);
                     }
