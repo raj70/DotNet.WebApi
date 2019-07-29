@@ -1,5 +1,6 @@
 ﻿using Rs.App.DotNet.WebApi.RouterFilters.ActionResults;
 using Rs.App.DotNet.WebApi.RouterFilters.Filters;
+using Rs.App.DotNet.WebApi.RouterFilters.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -29,6 +30,12 @@ namespace Rs.App.DotNet.WebApi.RouterFilters.Controllers
             var response = Ok("Hi Get by id").AddHeader("x-developer", "rajen shrestha");
 
             return response;
+        }
+
+        [ModelStateValidation(true)]
+        public HttpResponseMessage Post([FromBody] Hi model)
+        {
+            return Request.CreateResponse(HttpStatusCode.OK, model);
         }
     }
 }
