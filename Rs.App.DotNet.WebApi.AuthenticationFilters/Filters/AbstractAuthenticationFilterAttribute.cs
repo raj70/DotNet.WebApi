@@ -22,6 +22,7 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Filters
 
         public AbstractAuthenticationFilterAttribute(bool sendChallenge = false)
         {
+            SendChallenge = sendChallenge;
         }
 
         // https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/authentication-filters#implementing-the-authenticateasync-method

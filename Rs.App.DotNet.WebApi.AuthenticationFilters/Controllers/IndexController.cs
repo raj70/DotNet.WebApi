@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class IndexController : ApiController
     {
         [HttpGet]

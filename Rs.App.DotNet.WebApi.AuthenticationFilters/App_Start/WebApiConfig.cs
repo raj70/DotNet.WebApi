@@ -14,6 +14,7 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters
             config.SuppressHostPrincipal();
 
             config.Filters.Add(new BasicAuthenticationFilterAttribute());
+            config.Filters.Add(new AuthorizeAttribute());
 
             // Web API routes
             config.MapHttpAttributeRoutes();

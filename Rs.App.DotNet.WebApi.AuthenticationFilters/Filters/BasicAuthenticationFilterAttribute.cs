@@ -43,6 +43,7 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Filters
                 new Claim("urn:MyCustomClaim", "Hi basic")
             };
 
+            //SupportedTokenScheme is used show at the backend, which authorization is used (if we have more than one auth filters)
             var identity = new ClaimsIdentity(claimCollection, SupportedTokenScheme);
             var principal = new ClaimsPrincipal(identity);
 
