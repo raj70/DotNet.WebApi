@@ -26,7 +26,7 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Filters
         }
 
         // https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/authentication-filters#implementing-the-authenticateasync-method
-        public async Task AuthenticateAsync(HttpAuthenticationContext context, CancellationToken cancellationToken)
+        public virtual async Task AuthenticateAsync(HttpAuthenticationContext context, CancellationToken cancellationToken)
         {
             // STEP 1: extract your credentials from the request.  Generally this should be the 
             //         Authorization header, which the rest of this template assumes, but

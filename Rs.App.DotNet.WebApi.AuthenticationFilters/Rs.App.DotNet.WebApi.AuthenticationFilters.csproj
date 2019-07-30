@@ -98,13 +98,16 @@
     <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Filters\AbstractAuthenticationFilterAttribute.cs" />
     <Compile Include="Filters\AddChallengeOnUnauthorizedResult.cs" />
+    <Compile Include="Filters\ApiKeyAuthenticationFilterAttribute.cs" />
     <Compile Include="Filters\AuthenticationFailureResult.cs" />
     <Compile Include="Filters\BasicAuthenticationFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\ApiKeyDelegatingHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FakeAuthService.cs" />
+    <Compile Include="Services\ApiKeyValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

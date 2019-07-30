@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rs.App.DotNet.WebApi.AuthenticationFilters.Filters;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,7 +8,6 @@ using System.Web.Http;
 
 namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Controllers
 {
-    //[Authorize]
     public class IndexController : ApiController
     {
         [HttpGet]
@@ -20,9 +20,10 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters.Controllers
 
         [HttpGet]
         [Route("Index/{id:int}")]
+        [ApiKeyAuthenticationFilter]
         public IHttpActionResult Get(int id)
         {
-            return Ok("Hi " + id);
+            return Ok("Hi Api Key" + id);
         }
     }
 }

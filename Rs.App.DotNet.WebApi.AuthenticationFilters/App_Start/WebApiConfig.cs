@@ -1,4 +1,5 @@
 ﻿using Rs.App.DotNet.WebApi.AuthenticationFilters.Filters;
+using Rs.App.DotNet.WebApi.AuthenticationFilters.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace Rs.App.DotNet.WebApi.AuthenticationFilters
         {
             // Web API configuration and services
             config.SuppressHostPrincipal();
+
+            config.MessageHandlers.Add(new ApiKeyDelegatingHandler());
+
 
             config.Filters.Add(new BasicAuthenticationFilterAttribute());
             config.Filters.Add(new AuthorizeAttribute());
